@@ -1,0 +1,45 @@
+.projects-section{
+    .projects-title{
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 3dvh;
+    }.projects-list{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .project-box{
+            width: 100%;
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            >.project-image-container{
+                order: 1;
+                >.project-image{
+
+                }
+            }
+            >.project-content{
+                >.project-title{
+
+                }
+                >.project-description{
+
+                }
+                >.project-tools-used{
+                    
+                }
+                >.project-link{
+                    >.go-to-project-btn{
+
+                    }
+                }
+            }
+        }
+    }
+    >.projects-more-link{
+        >.projects-more-btn{
+
+        }
+    }
+}
