@@ -29,6 +29,7 @@
         }
     }
     >.hero-content{
+        padding: 0 90px;
         z-index: 0;
         display: flex;
         align-items: center;
@@ -49,37 +50,65 @@
             }
             >.media-links{
                 display: flex;
+                align-items: center;
+                justify-content: left;
                 gap: 0.4rem;
                 >.media-link{
-                    >div{
+                    width:clamp(40px, 4vw, 45px);
+                    height: clamp(40px, 4vw, 45px);
+                    transition: all 0.2s;
+                    >figure{
                         border-radius: 50%;
-                        background: var(--textAccent1);
-                        color: black;
-                        width: clamp(20px, 4vw, 40px);
-                        height: clamp(20px, 4vw, 40px);
+                        background: rgba(var(--accent1RGB), 0.068);
+                        padding: 0.4rem;
+                        width: 100%;
+                        height: 100%;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        >svg{
+                            width: 100%;
+                            height: 100%;
+                            fill: rgba(var(--accent2RGB), 0.4);
+                        }
+                        &:hover{
+                            background: rgba(128, 128, 128, 0.168);
+                            >svg{
+                                fill: var(--accent2);
+                            }
+                        }
                     }
                 }
             }
             >.download-cv-link{
-                margin-top: clamp(10px, 1vw, 20px);
+                margin-top: clamp(8px, 1vw, 20px);
+                width: 60%;
                 >button{
-                    color: var(--textAccent1);
+                    height: 3rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: clamp(100%, 2vw, 1.4rem);
                     padding: 10px 20px;
-                    border: none;
-                    background: orange;
-                    font-weight: bold;
                     border-radius: 5px;
+                    width: 100%;
+                    border: none;
+                    background: var(--accent2);
+                    color: var(--textAccent1);
+                    font-weight: bold;
                     cursor: pointer;
+                    box-shadow: 0 0 30px 4px var(--boxShadow1);
+                    transition: all 0.2s ease-in-out;
+                    &:hover{
+                        scale:1.05;
+                        box-shadow:  0 0 30px 8px rgba(var(--accent2RGB), 0.4);
+                    }
                 }
             }
         }
         >.hero-pfp{
             width: 50%;
             display: flex;
-            justify-content: center;
             >.my-pfp-container{
                 position: relative;
                 width: clamp(100px, 20vw , 400px);
@@ -95,12 +124,13 @@
                 }
                 >.code-icon{
                     position: absolute;
-                    right: 0;
-                    top: 0;
+                    right: -10%;
+                    top: -10%;
                     z-index: 1;
-                    width: 50px;
-                    height: 50px;
-                    >svg{
+                    width: clamp(45px, 10vw, 100px);
+                    height: clamp(45px, 10vw, 100px);
+                    animation: fade-in 2s ease-in-out, floating 5s ease-in-out 2s infinite;
+                    svg{
                         width: 100%;
                         height: 100%;
                         fill: var(--accent2);
@@ -108,21 +138,23 @@
                 }
                 >.cloud{
                     position: absolute;
+                    transition: all 0.2s ease-in-out;
                     >img{
                         aspect-ratio: 1/1;
-                        width: clamp(85px, 10vw , 200px);
+                        width: clamp(70px, 10vw , 200px);
                         height: auto;
                     }
                 }
-
                 .cloud-1{
-                    bottom:-10%;
+                    bottom:-12%;
                     left: -15%;
                     z-index: -1;
+                    animation: cloud-intro-left-right 1s ease, floating 5s ease-in-out 1s infinite;
                 }
                 .cloud-2{
-                    bottom: -17%;
+                    bottom: -20%;
                     right: -20px;
+                    animation: cloud-intro-right-left 0.8s ease, floating 5s ease-in-out 1.4s infinite;
                 }
             }
             
@@ -132,19 +164,32 @@
 
 @media (min-width: 768.5px){
     .hero-content{
-        padding: 0 90px;
+        >.hero-text{
+            padding-left: 3rem;
+        }
+        >.hero-pfp{
+            padding-right: 5rem;
+            justify-content: right;
+        }
     }
 }
 
 @media (max-width: 768px){
-    .hero{
+    #hero{
         align-items: center;
         text-align: center;
         >.hero-content{
+            display: flex;
             flex-direction: column;
+            height: 50dvh;
             gap: 20px;
             >.hero-pfp{
                 order: -1;
+                justify-content: center;
+            }
+            >.hero-text{
+                justify-content: center;
+                align-items: center;
             }
         }
     }
