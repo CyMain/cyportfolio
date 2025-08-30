@@ -7,11 +7,15 @@
     >fieldset{
         display: flex;
         justify-content: first baseline;
+        border: none;
         padding: 0.4rem;
         margin: 0.4rem 0;
         gap: 1rem;
+        >*{
+            width: 100%;
+        }
         >label{
-            font-size: clamp(1rem, 3vw, 3rem);
+            font-size: clamp(1rem, 1.8vw, 2.5rem);
             font-weight: bold;
             margin-top: 0.4rem;
         }
@@ -21,9 +25,25 @@
             border: 2px solid var(--accent2);
             border-radius: 0.4rem;
             font-size: clamp(0.6rem, 1.6vw, 1rem);
+            resize: none;
             &:focus{
                 outline: none;
                 border: 2px solid var(--textAccent1);
+            }
+        }
+    }
+    >.buttons-holder{
+        display: flex;
+        justify-content: space-between;
+        >.submit-btn{
+            background: var(--buttonAccent3);
+            width: 45%;
+        }
+        >a{
+            width: 45%;
+            >.back-to-top-btn{
+                background: var(--buttonAccent2);
+                width: 100%;
             }
         }
     }
