@@ -1,0 +1,64 @@
+.services-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .services-list{
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, clamp(200px, 45%,580px));
+        gap: 2.5rem;
+        justify-content: space-between;
+        width: 100%;
+        .service-box{
+            height: max-content;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0.8rem;
+            box-shadow: 0 0 20px 5px var(--boxShadow1);
+            border-radius: 0.4rem;
+            gap: 0.6rem;
+            justify-content: space-between;
+            >.service-top{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                gap: 1rem;
+                align-items: flex-start;
+                >.service-icon{
+                    order: -1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0.4rem;
+                    width: clamp(3rem, 50%, 10rem);
+                    height: 100%;
+                    margin: 0 0.4rem 0.4rem 0;
+                    border-radius: 0.4rem;
+                    background: var(--accent2);
+                    svg{
+                        height: 100%;
+                        width: auto;
+                        max-height: 5rem;
+                        object-fit: cover;
+                    }
+                }
+                >.service-text{
+                    min-width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                    >.service-name{
+                        font-size: clamp(1rem, 3vw, 1.5rem);
+                    }
+                    >.service-desc{
+                        font-size: clamp(0.6rem, 1.6vw, 1rem);
+                        opacity: 60%;
+                    }
+                }
+            }
+        }
+    }
+}

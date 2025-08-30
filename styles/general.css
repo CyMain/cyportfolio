@@ -5,10 +5,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body, html{
+    scroll-behavior: smooth;
+}
+
 body{
     --accent1:#00021C;
     --accent2:#ffc300;
     --textAccent1:white;
+    --buttonAccent1:#ffc300;
+    --buttonAccent2:#3140E8;
+    --buttonAccent3:#0D8611;
+    --boxShadow1:#000000a4;
     color:var(--textAccent1);
     background: var(--accent1);
     padding-top: 7dvh;
@@ -17,6 +25,7 @@ body{
 a{
     text-decoration: none;
     color: white;
+    width: max-content;
 }
 
 .navbar{
@@ -37,4 +46,21 @@ a{
 section{
     min-height: 100dvh;
     padding: 0 90px;
+}
+
+.btn{
+    border: none;
+    border-radius: 0.2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--textAccent1);
+    font-weight: bold;
+}
+.section-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3dvh;
 }

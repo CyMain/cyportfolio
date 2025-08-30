@@ -1,0 +1,30 @@
+.contact-form{
+    padding: 1rem;
+    box-shadow: 0 0 20px 5px var(--boxShadow1);
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    >fieldset{
+        display: flex;
+        justify-content: first baseline;
+        padding: 0.4rem;
+        margin: 0.4rem 0;
+        gap: 1rem;
+        >label{
+            font-size: clamp(1rem, 3vw, 3rem);
+            font-weight: bold;
+            margin-top: 0.4rem;
+        }
+        >input, textarea{
+            margin: 0.5rem 0 1rem 0;
+            padding: 0.5rem;
+            border: 2px solid var(--accent2);
+            border-radius: 0.4rem;
+            font-size: clamp(0.6rem, 1.6vw, 1rem);
+            &:focus{
+                outline: none;
+                border: 2px solid var(--textAccent1);
+            }
+        }
+    }
+}

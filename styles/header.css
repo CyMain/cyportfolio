@@ -35,6 +35,9 @@
         justify-content: space-between;
         width: 100%;
         >.hero-text{
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
             >.greetings-text{
                 font-size: 97px;
                 font-weight: bolder;
