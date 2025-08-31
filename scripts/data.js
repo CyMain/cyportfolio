@@ -1,13 +1,5 @@
 export const projects = [
     {
-        imgLink:"/assets/images/UTBLOGSSCREEN.png",
-        projName:"Undertale Blogs",
-        projDesc:"A blog site built to test my backend capabilities. It includes post likes, comments, and a search feature. The classes, models and forms can all be found on the github ",
-        toolsUsed:[
-            "Django", "Python", "HTML" ,"CSS", "JavaScript", "Git", "Render"
-        ],
-        projLink:"https://notes-react-app-pied.vercel.app/",
-    },{
         imgLink:"/assets/images/CyNotesSamplePage1.png",
         projName:"CyNotes! - Your Trusty Note Taker",
         projDesc:"A notes app built to test my learning progression with ReactJS. This app allows creation, removal, and updates of notes on the site. All notes are stored in local storage so you can revisit the notes anytime after leaving the site.",
@@ -32,6 +24,14 @@ export const projects = [
             "HTML","CSS", "JavaScript", "Git", "Vercel"
         ],
         projLink:"https://guessy-pearl.vercel.app/",
+    },{
+        imgLink:"/assets/images/UTBLOGSSCREEN.png",
+        projName:"Undertale Blogs",
+        projDesc:"A blog site built to test my backend capabilities. It includes post likes, comments, and a search feature. The classes, models and forms can all be found on the github. Barely any styling here. The visuals are held together by hopes and dreams.",
+        toolsUsed:[
+            "Django", "Python", "HTML" ,"CSS", "JavaScript", "Git", "Render"
+        ],
+        projLink:"https://undertaleblogs.onrender.com/",
     },
 ]
 
