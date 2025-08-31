@@ -6,7 +6,7 @@ export const projects = [
         toolsUsed:[
             "ReactJS","Git"
         ],
-        projLink:"",
+        projLink:"https://notes-react-app-pied.vercel.app/",
     },{
         imgLink:"/assets/images/bocchiDesktopViewDark.png",
         projName:"Anime Landing Page",
@@ -14,7 +14,16 @@ export const projects = [
         toolsUsed:[
             "HTML","CSS", "JavaScript", "Git",
         ],
-        projLink:"",
+        projLink:"https://anime-landing-page-five.vercel.app/",
+    },
+    {
+        imgLink:"/assets/images/bocchiDesktopViewDark.png",
+        projName:"Guessy - The Online Guessing Game!",
+        projDesc:"One of my first major projects when learning frontend development. This implements complex rendering logic in order to keep letters random, this also has an intro for flashiness, and is overall a project I was proud of at the time.",
+        toolsUsed:[
+            "HTML","CSS", "JavaScript", "Git",
+        ],
+        projLink:"https://guessy-pearl.vercel.app/",
     },
 ]
 

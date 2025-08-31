@@ -2,7 +2,7 @@ import * as data from './data.js'
 
 renderProj()
 
-function generateProjHomeHTML(){
+function generateProjHTML(){
     let html = ""
     data.projects.forEach((proj)=>{
         html += `
@@ -31,5 +31,5 @@ function generateProjHomeHTML(){
 }
 function renderProj(){
     const projListElem = document.querySelector('.projects-list')
-    projListElem.innerHTML= generateProjHomeHTML()
+    projListElem.innerHTML= generateProjHTML()
 }
