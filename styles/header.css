@@ -82,7 +82,7 @@
             }
             >.download-cv-link{
                 margin-top: clamp(8px, 1vw, 20px);
-                width: 60%;
+                width: clamp(8rem, 100%, 14rem);
                 >button{
                     height: 3rem;
                     display: flex;
@@ -114,9 +114,11 @@
                 width: clamp(100px, 20vw , 400px);
                 height: clamp(100px, 20vw , 400px);
                 border-radius: 50%;
+                aspect-ratio: 1/1;
                 >.my-pfp{
                     width: 100%;
                     height: 100%;
+                    aspect-ratio: 1/1;
                     object-fit: cover;
                     object-position: top;
                     border-radius: 50%;
@@ -181,7 +183,6 @@
         >.hero-content{
             display: flex;
             flex-direction: column;
-            height: 50dvh;
             gap: 20px;
             >.hero-pfp{
                 order: -1;

@@ -1,3 +1,9 @@
+#contact-section{
+    height: min-content;
+    min-height: min-content;
+    padding-bottom: 100px;
+}
+
 .contact-form{
     padding: 1rem;
     box-shadow: 0 0 20px 5px var(--boxShadow1);

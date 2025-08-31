@@ -1,16 +1,21 @@
-.services-section{
+#services-section{
+    margin-bottom: 6rem;
     display: flex;
     flex-direction: column;
+    height: max-content;
+    min-height: min-content;
+    padding-bottom: 100px;
     gap: 1rem;
     .services-list{
-        margin-top: 4rem;
+        margin-top: 3rem;
         display: grid;
-        grid-template-columns: repeat(auto-fill, clamp(200px, 45%,580px));
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 2.5rem;
         justify-content: space-between;
         width: 100%;
         .service-box{
             height: max-content;
+            min-height: 6rem;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -68,7 +73,7 @@
 }
 
 @media (max-width:600px) {
-    .services-section{
+    #services-section{
         .services-list{
             display: flex;
             flex-direction: column;

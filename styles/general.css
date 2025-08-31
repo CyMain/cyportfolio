@@ -55,6 +55,7 @@ a{
             height: 100%;
             width: 100%;
             >a{
+                font-size: 100%;
                 position: relative;
                 height: 100%;
                 width: 100%;
@@ -83,7 +84,7 @@ a{
     }
     z-index: 100;
 }
-section{
+.section{
     min-height: 100dvh;
     padding: 0 80px;
     position: relative;
@@ -110,7 +111,7 @@ section{
     margin-bottom: 3dvh;
 }
 @media (max-width:768px) {
-    section{
+    .section{
         min-height: 100dvh;
         padding: 0 20px;
     }
