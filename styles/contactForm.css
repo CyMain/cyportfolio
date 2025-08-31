@@ -35,15 +35,24 @@
     >.buttons-holder{
         display: flex;
         justify-content: space-between;
+        button{
+            box-shadow: 0 0 10px 5px var(--boxShadow1);
+            transition: all 0.2s;
+            &:hover{
+                box-shadow: 0 0 20px 10px rgba(var(--accent2RGB), 0.15);
+            }
+        }
         >.submit-btn{
             background: var(--buttonAccent3);
             width: 45%;
+            min-height: 3rem;
         }
         >a{
             width: 45%;
             >.back-to-top-btn{
                 background: var(--buttonAccent2);
                 width: 100%;
+                min-height: 3rem;
             }
         }
     }

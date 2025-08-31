@@ -16,14 +16,15 @@
     <header>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#hero-target">Home</a></li>
+                <li><a href="#projects-target">Projects</a></li>
+                <li><a href="#skills-target">Skills</a></li>
+                <li><a href="#services-target">Services</a></li>
+                <li><a href="#contact-target">Contact</a></li>
             </ul>
         </nav>
         <section id="hero">
+            <div id="hero-target" class="target"></div>
             <div class="hero-gradient"></div>
             <figure class="hero-image-bg-container">
                 <img src="./Untitled-1.svg" alt="" class="hero-image-bg">
@@ -50,7 +51,6 @@
                     <a href="" class="download-cv-link">
                         <button class="btn">Download CV</button>
                     </a>
-
                 </div>
                 <div class="hero-pfp">
                     <figure class="my-pfp-container">
@@ -71,7 +71,8 @@
         </section>
     </header>
     <main>
-        <section class="projects-section">
+        <section id="projects-section">
+            <div id="projects-target" class="target"></div>
             <h1 class="section-title">
                 PROJECTS
             </h1>
@@ -82,7 +83,7 @@
                     </figure>
                     <div class="project-content">
                         <h2 class="project-title">CyNotes! - Your Trusty Note Taker</h2>
-                        <p class="project-description">A brief description of the project goes here.</p>
+                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque recusandae laboriosam, odio, beatae doloribus quos porro ipsam illo natus corrupti alias accusamus quae, ipsa assumenda laborum laudantium fuga delectus? At reiciendis cumque dolor labore, facilis commodi magni amet pariatur dignissimos itaque quis nemo exercitationem dolorum? Qui et, cupiditate quos itaque laboriosam quia quibusdam! Eius voluptatem adipisci voluptate deserunt voluptates exercitationem nesciunt ad, dignissimos vero sed accusantium cupiditate quasi ratione quis minus harum nam illo suscipit unde itaque, architecto maiores explicabo magni aliquam. Ut, tenetur. Voluptas aspernatur officia minus earum beatae debitis quos nemo, molestias obcaecati rem nam, veniam provident iure!</p>
                         <p class="project-tools-used">
                             <strong>Tools Used:</strong> React, Git
                         </p>
@@ -118,6 +119,7 @@
             </a>
         </section>
         <section class="skills-section">
+            <div id="skills-target" class="target"></div>
             <h1 class="section-title">
                 SKILLS
             </h1>
@@ -197,6 +199,7 @@
             </div>
         </section>
         <section class="services-section">
+            <div id="services-target" class="target"></div>
             <h1 class="section-title">
                 SERVICES
             </h1>
@@ -219,6 +222,7 @@
             </div>
         </section>
         <section class="contact-section">
+            <div id="contact-target" class="target"></div>
             <h1 class="section-title">
                 CONTACT ME
             </h1>
@@ -238,14 +242,12 @@
                 <div class="buttons-holder">
                     <button type="submit" class="submit-btn btn">SEND MESSAGE</button>
                     <a href="">
-                        <button class="back-to-top-btn btn">BACK TO TOP</button>
+                        <button type="button" class="back-to-top-btn btn">BACK TO TOP</button>
                     </a>
                 </div>
             </form>
         </section>
     </main>
-    <footer>
-
-    </footer>
+    <script src="./scripts/indexContent.js"></script>
 </body>
 </html>

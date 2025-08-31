@@ -129,7 +129,7 @@
                     z-index: 1;
                     width: clamp(45px, 10vw, 100px);
                     height: clamp(45px, 10vw, 100px);
-                    animation: fade-in 2s ease-in-out, floating 5s ease-in-out 2s infinite;
+                    animation: fade-in 2s ease-in-out, floating 6s ease-in-out 2s infinite;
                     svg{
                         width: 100%;
                         height: 100%;
@@ -149,7 +149,7 @@
                     bottom:-12%;
                     left: -15%;
                     z-index: -1;
-                    animation: cloud-intro-left-right 1s ease, floating 5s ease-in-out 1s infinite;
+                    animation: cloud-intro-left-right 1s ease, floating 4s ease-in-out 1s infinite;
                 }
                 .cloud-2{
                     bottom: -20%;
