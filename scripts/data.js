@@ -7,15 +7,6 @@ export const projects = [
             "ReactJS","Git", "Vercel"
         ],
         projLink:"https://notes-react-app-pied.vercel.app/",
-    },
-    {
-        imgLink:"/assets/images/GuessyCreator.webp",
-        projName:"Guessy - The Online Guessing Game!",
-        projDesc:"One of my first major projects when learning frontend development. This implements complex rendering logic in order to keep letters random, this also has an intro for flashiness, and is overall a project I was proud of at the time.",
-        toolsUsed:[
-            "HTML","CSS", "JavaScript", "Git", "Vercel"
-        ],
-        projLink:"https://guessy-pearl.vercel.app/",
     },{
         imgLink:"/assets/images/bocchiDesktopViewDark.webp",
         projName:"Anime Landing Page",
@@ -32,6 +23,15 @@ export const projects = [
             "Django", "Python", "HTML" ,"CSS", "JavaScript", "Git", "Render"
         ],
         projLink:"https://undertaleblogs.onrender.com/",
+    },
+    {
+        imgLink:"/assets/images/GuessyCreator.webp",
+        projName:"Guessy - The Online Guessing Game!",
+        projDesc:"One of my first major projects when learning frontend development. This implements complex rendering logic in order to keep letters random, this also has an intro for flashiness, and is overall a project I was proud of at the time.",
+        toolsUsed:[
+            "HTML","CSS", "JavaScript", "Git", "Vercel"
+        ],
+        projLink:"https://guessy-pearl.vercel.app/",
     },
 ]
 
