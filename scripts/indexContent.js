@@ -55,7 +55,7 @@ function generateSkillsHTML(){
                 <div class="skill-bottom">
                     <div class="skill-progress-bar">
                         <div class="bar-outline">
-                            <div class="bar-fill" style="width:${skill.skillProg}%"></div>
+                            <div class="bar-fill" style="width:${skill.skillProg}%; background: ${decideSkillColor(skill.skillProg)};"></div>
                         </div>
                     </div>
                     <p class="progress-text">${skill.skillProg}%</p>
@@ -110,4 +110,14 @@ function renderLists(){
     renderProj()
     renderSkills()
     renderServices()
+}
+
+function decideSkillColor(percent){
+    if (percent >= 75){
+        return "green"
+    }else if (percent >= 50){
+        return "orange"
+    }else if(percent >= 0){
+        return "red"
+    }
 }
