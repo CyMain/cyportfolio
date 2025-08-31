@@ -17,7 +17,7 @@ export const projects = [
         projLink:"https://anime-landing-page-five.vercel.app/",
     },
     {
-        imgLink:"/assets/images/bocchiDesktopViewDark.png",
+        imgLink:"/assets/images/GuessyCreator.png",
         projName:"Guessy - The Online Guessing Game!",
         projDesc:"One of my first major projects when learning frontend development. This implements complex rendering logic in order to keep letters random, this also has an intro for flashiness, and is overall a project I was proud of at the time.",
         toolsUsed:[
