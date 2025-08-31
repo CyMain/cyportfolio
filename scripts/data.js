@@ -1,6 +1,6 @@
 export const projects = [
     {
-        imgLink:"/assets/images/CyNotesSamplePage1.png",
+        imgLink:"/assets/images/CyNotesSamplePage1.webp",
         projName:"CyNotes! - Your Trusty Note Taker",
         projDesc:"A notes app built to test my learning progression with ReactJS. This app allows creation, removal, and updates of notes on the site. All notes are stored in local storage so you can revisit the notes anytime after leaving the site.",
         toolsUsed:[
@@ -8,7 +8,7 @@ export const projects = [
         ],
         projLink:"https://notes-react-app-pied.vercel.app/",
     },{
-        imgLink:"/assets/images/bocchiDesktopViewDark.png",
+        imgLink:"/assets/images/bocchiDesktopViewDark.webp",
         projName:"Anime Landing Page",
         projDesc:"A page that  shows various animes, various characters in their main cast, and a site that leads to the official crunchyroll page to watch that anime",
         toolsUsed:[
@@ -17,7 +17,7 @@ export const projects = [
         projLink:"https://anime-landing-page-five.vercel.app/",
     },
     {
-        imgLink:"/assets/images/GuessyCreator.png",
+        imgLink:"/assets/images/GuessyCreator.webp",
         projName:"Guessy - The Online Guessing Game!",
         projDesc:"One of my first major projects when learning frontend development. This implements complex rendering logic in order to keep letters random, this also has an intro for flashiness, and is overall a project I was proud of at the time.",
         toolsUsed:[
@@ -25,7 +25,7 @@ export const projects = [
         ],
         projLink:"https://guessy-pearl.vercel.app/",
     },{
-        imgLink:"/assets/images/UTBLOGSSCREEN.png",
+        imgLink:"/assets/images/UTBLOGSSCREEN.webp",
         projName:"Undertale Blogs",
         projDesc:"A blog site built to test my backend capabilities. It includes post likes, comments, and a search feature. The classes, models and forms can all be found on the github. Barely any styling here. The visuals are held together by hopes and dreams.",
         toolsUsed:[
