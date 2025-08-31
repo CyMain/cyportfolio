@@ -7,14 +7,6 @@ export const projects = [
             "ReactJS","Git", "Vercel"
         ],
         projLink:"https://notes-react-app-pied.vercel.app/",
-    },{
-        imgLink:"/assets/images/bocchiDesktopViewDark.webp",
-        projName:"Anime Landing Page",
-        projDesc:"A page that  shows various animes, various characters in their main cast, and a site that leads to the official crunchyroll page to watch that anime",
-        toolsUsed:[
-            "HTML","CSS", "JavaScript", "Git", "Vercel"
-        ],
-        projLink:"https://anime-landing-page-five.vercel.app/",
     },
     {
         imgLink:"/assets/images/GuessyCreator.webp",
@@ -24,6 +16,14 @@ export const projects = [
             "HTML","CSS", "JavaScript", "Git", "Vercel"
         ],
         projLink:"https://guessy-pearl.vercel.app/",
+    },{
+        imgLink:"/assets/images/bocchiDesktopViewDark.webp",
+        projName:"Anime Landing Page",
+        projDesc:"A page that  shows various animes, various characters in their main cast, and a site that leads to the official crunchyroll page to watch that anime",
+        toolsUsed:[
+            "HTML","CSS", "JavaScript", "Git", "Vercel"
+        ],
+        projLink:"https://anime-landing-page-five.vercel.app/",
     },{
         imgLink:"/assets/images/UTBLOGSSCREEN.webp",
         projName:"Undertale Blogs",
