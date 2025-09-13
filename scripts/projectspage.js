@@ -16,7 +16,7 @@ function generateProjHTML(){
                     <p class="project-tools-used">
                         <strong>Tools Used:</strong> ${proj.toolsUsed.join(", ")}
                     </p>
-                    <a href="#" class="project-link">
+                    <a href="${proj.projLink}" class="project-link">
                         <button onclick="
                             window.location.href = '${proj.projLink}'
                         " class="go-to-project-btn btn">
